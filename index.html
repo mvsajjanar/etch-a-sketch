@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+    <script type="text/javascript" src="myScript.js"></script>  
+</head>
+<style>
+    #main {
+        text-align: center;
+    }
+
+    #header {
+        width: 500px;
+        margin: 20px auto 20px auto;
+        text-align: center;
+        text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5), 2px 2px 2px rgba(54,16,140,0);
+    }
+    #container {
+        margin: 15px auto auto auto;
+        width: 500px;
+        height: 500px;
+        border: 1px solid red;
+        display: grid;
+        grid-gap: 1px;
+        box-shadow: 0px 0px 35px 3px rgba(0,0,0,0.75);
+    }
+
+    .one-unit {
+        background: white;
+    }
+
+    button {
+        box-shadow: 0px 10px 14px -7px #276873;
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        background-color:#599bb3;
+        cursor:pointer;
+        border-radius: 7px;
+	    text-shadow:0px 1px 0px #3d768a;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <h1 id="header">Etch A Sketch</h1>
+        <button id="clear-reset">Clear</button>
+        <button id="change-grid">Change Grid</button>
+        <button id="random-color">Random Color</button>
+        <button id="variable-color">variable Color</button>
+        <div id="container"></div>
+    </div>
+</body>
+</html>
